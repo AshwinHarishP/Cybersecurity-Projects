@@ -18,7 +18,7 @@ In this repository, you will find a collection of cybersecurity projects that co
 
 Here are some of the projects currently included in this repository:
 
-### 1. [Project 1: Port Scanner](/port_scanner)
+### 1. [Project 1: Port Scanner](/Port_Scanner)
    #### Description: <br/>
    <ul>
    <li>The project is a basic Python-based port scanner tool. It allows users to input a target host IP address along with a range of port numbers to be scanned. The tool then checks each port within the specified range to determine if it is open or closed on the target host. </li> <br/>
