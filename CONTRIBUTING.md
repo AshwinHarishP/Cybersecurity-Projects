@@ -32,10 +32,6 @@ Thank you for your interest in contributing to our Cybersecurity Projects reposi
 
 If you encounter any issues, bugs, or have suggestions for improvements, please feel free to create an issue in the repository's issue tracker. Provide detailed information about the problem or suggestion, along with steps to reproduce the issue if applicable.
 
-## Code of Conduct
-
-We expect all contributors to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). Please be respectful and considerate of others when participating in discussions or contributing code.
-
 ## Licensing
 
 By contributing to this repository, you agree to license your contributions under the [MIT License](LICENSE). This ensures that your contributions can be used, modified, and distributed freely by others, provided that they give appropriate credit to the original work.
