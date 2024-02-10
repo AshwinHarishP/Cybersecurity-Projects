@@ -6,7 +6,6 @@ Version: 1.0
 
 import argparse
 import os
-import pyfiglet
 from rich.console import Console
 from rich.prompt import Prompt
 from rich.text import Text
@@ -54,9 +53,20 @@ def main():
 
 if __name__ == "__main__":
     console = Console()
+    logo = """
+            
+ ##   ##  ######   #####     ####    #####      ##      ####    ##  ##  
+ ##   ##  ##       ##  ##   ##  ##   ##  ##    ####    ##  ##   ## ##   
+ ##   ##  ##       ##  ##   ##       ##  ##   ##  ##   ##       ####    
+ ## # ##  ####     #####    ##       #####    ######   ##       ###     
+ #######  ##       ##  ##   ##       ####     ##  ##   ##       ####    
+ ### ###  ##       ##  ##   ##  ##   ## ##    ##  ##   ##  ##   ## ##   
+ ##   ##  ######   #####     ####    ##  ##   ##  ##    ####    ##  ##
 
-    console.print(Text(style="bold red on yellow"))
-    banner = pyfiglet.figlet_format("Web Crack", font="banner3-D")
-    console.print(Text(banner, style="bold green") + Text("\t\t\t\t\t \t\t\t\t\t\tA tool to detect vulnerabilities in websites", style="green"))
-
+                                                  
+                                        
+    """
+    description = "A tool to detect vulnerabilities in websites"
+    console.print(Text(logo, style="bold green") + Text("\n\n \t\t\t\t\t\t\t" + description, style="green"))
     main()
+
