@@ -28,7 +28,7 @@ Web Crack is a vulnerability detection tool designed to identify security weakne
 
 ## Contributors
 - **Author**: Ashwin Harish P
-- - **Author**: Aravind S
+
 
 ## Version
 - 1.0
