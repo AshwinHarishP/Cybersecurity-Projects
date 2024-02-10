@@ -27,6 +27,24 @@ Here are some of the projects currently included in this repository:
 <li>Please note that while this project serves as an introductory exploration of port scanning, conducting such activities on networks and systems without proper authorization may violate ethical guidelines and applicable laws. Responsible use of this tool is essential to ensure the security and privacy of network assets.</li> <br/>
 </ul>
 
+### 2. [Project 2: Socket Communication](/Socket_Communication)
+   #### Description: <br/>
+   <ul>
+   <li>This repository contains two Python code snippets demonstrating basic socket communication: a client and a server. These examples showcase how to establish a simple TCP connection between a client and a server, allowing them to exchange messages.</li> <br/>
+   <li><strong>Client Code Explanation:</strong> The client.py script establishes a TCP connection with a remote server and receives a message from the server. It imports the socket module, creates a client socket, defines the server's IP address and port, connects to the server, receives a message from the server, and closes the client socket. Finally, it prints and decodes the received message.</li> <br/>
+   <li><strong>Server Code Explanation:</strong> The server.py script listens for incoming client connections and sends a welcome message to each connected client. It imports the socket module, defines a main() function to encapsulate the server logic, creates a server socket, binds the server socket to the host and port, starts listening for incoming connections, enters a loop to accept connections, sends a welcome message to the client, and handles socket errors and exceptions.</li> <br/>
+   <li><strong>Usage:</strong> Clone this repository to your local machine and open two terminal windows to run the client and server scripts.</li> <br/>
+</ul>
+
+### 3. [Project 3: WebCrack](/WebCrack)
+   #### Description: <br/>
+   <ul>
+   <li>The project is a Python-based cybersecurity vulnerability detection tool called Web Crack. It provides a range of features to assess the security posture of web applications and websites, including DDOS attack checks, directory enumeration, SQL injection attack checks, and XSS attack checks.</li> <br/>
+   <li>Web Crack is designed to help users identify and mitigate various vulnerabilities in web assets, enhancing overall security resilience against common cyber threats. It offers a comprehensive suite of functionalities to analyze web application security and address potential weaknesses effectively.</li> <br/>
+   <li>Users can utilize Web Crack to perform targeted assessments of web applications and websites, identify security gaps, and implement appropriate remediation measures. By conducting thorough vulnerability checks, users can bolster the security posture of their web assets and protect against potential cyber attacks.</li> <br/>
+   <li>Responsible use of Web Crack is paramount to ensure the ethical and lawful assessment of web assets. Users should adhere to applicable regulations and guidelines when utilizing the tool to assess the security of web applications and websites.</li> <br/>
+</ul>
+
 
 ## Getting Started
 
@@ -38,6 +56,6 @@ Contributions are welcome and encouraged! If you want to contribute to any of th
 
 ## License
 
-This repository is open-source and is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as long as you include the original copyright and license notice in any copy of the software/source.
+This repository is open-source and is licensed under the [LICENSE file](https://github.com/AshwinHarishP/Cybersecurity-Projects/blob/main/LICENSE). You are free to use, modify, and distribute the code as long as you include the original copyright and license notice in any copy of the software/source.
 
 ---
