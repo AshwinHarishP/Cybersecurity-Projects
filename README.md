@@ -45,6 +45,15 @@ Here are some of the projects currently included in this repository:
    <li>Responsible use of Web Crack is paramount to ensure the ethical and lawful assessment of web assets. Users should adhere to applicable regulations and guidelines when utilizing the tool to assess the security of web applications and websites.</li> <br/>
 </ul>
 
+### 4. [Project 4: AES_Encrypter](/AES_Encrypter)
+   #### Description: <br/>
+   <ul>
+<li>This repository contains Python scripts for AES encryption and decryption, leveraging the AES (Advanced Encryption Standard) algorithm in CBC (Cipher Block Chaining) mode.</li> <br/>
+<li>The `encrypter.py` script encrypts plaintext data read from `input.txt` and saves the encrypted content to `encrypted.txt`.</li> <br/>
+<li>The `decrypter.py` script decrypts ciphertext data read from `encrypted.txt` and prints the decrypted plaintext.</li> <br/>
+<li>The `main.py` script provides a menu-driven interface to either encrypt or decrypt data, allowing users to choose the desired option.</li> <br/>
+</ul>
+
 
 ## Getting Started
 
