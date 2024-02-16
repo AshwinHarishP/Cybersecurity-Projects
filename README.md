@@ -64,6 +64,30 @@ Here are some of the projects currently included in this repository:
 <li>Additionally, the server handles the special command `cd` to change the current working directory of the server's operating system.</li> <br/>
 </ul>
 
+### 6. [Project 6: Password_Cracker](/Password_Cracker)
+   #### Description: <br/>
+   <ul>
+<li>This Python script is designed for hash cracking, capable of attempting to crack various hash types including MD5, SHA1, SHA-256, SHA-384, and SHA-512.</li> <br/>
+<li>The script provides options to specify a single hash using the `-s` flag, a file containing hashes using the `-f` flag, or a directory containing hashes using the `-d` flag.</li> <br/>
+<li>Additionally, the user can specify the number of threads to use for concurrent processing using the `-t` flag.</li> <br/>
+<li>The script utilizes various online hash cracking services/APIs to attempt to crack the provided hashes.</li> <br/>
+<li>It supports multithreading for efficient processing, allowing multiple hashes to be cracked simultaneously.</li> <br/>
+<li>The script includes colorized output for better readability and provides informative messages during execution, such as hash function detection and progress updates.</li> <br/>
+<li>It also saves the cracked hashes to a file named `cracked-<filename>` if a file or directory containing hashes is specified.</li> <br/>
+</ul>
+
+### 7. [Project 6: Website_Safety_Checker](/Website_Safety_Checker)
+   #### Description: <br/>
+   <ul>
+<li>This Chrome extension, "Website Safety Checker," is designed to enhance browsing security by warning users about potentially unsafe websites.</li> <br/>
+<li>The extension checks the SSL validity of websites by examining their SSL certificates. If issues are detected, users are promptly notified to exercise caution.</li> <br/>
+<li>Users can input a website URL into the extension's popup interface, which triggers a safety check. The extension then communicates with external APIs to determine the reputation of the website.</li> <br/>
+<li>Reputation information obtained from external APIs helps users assess the trustworthiness of websites before engaging with them further.</li> <br/>
+<li>The extension utilizes Chrome's capabilities to provide a seamless experience, with color-coded warnings and informative messages displayed in the popup interface.</li> <br/>
+<li>Background processing ensures that safety checks occur efficiently and without interrupting the user's browsing experience.</li> <br/>
+<li>Should SSL issues or reputation concerns arise, the extension handles them gracefully, providing users with actionable information to make informed decisions.</li> <br/>
+</ul>
+
 
 ## Getting Started
 
