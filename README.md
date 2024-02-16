@@ -54,6 +54,16 @@ Here are some of the projects currently included in this repository:
 <li>The `main.py` script provides a menu-driven interface to either encrypt or decrypt data, allowing users to choose the desired option.</li> <br/>
 </ul>
 
+### 5. [Project 5: Backdoor](/Backdoor)
+   #### Description: <br/>
+   <ul>
+<li>This repository contains a Python script for a simple backdoor server, allowing remote execution of commands on the server's operating system.</li> <br/>
+<li>The `server.py` script sets up a server socket that listens for incoming connections on a specified port.</li> <br/>
+<li>When a client connects, the server accepts the connection and creates a new thread to handle communication with that client.</li> <br/>
+<li>The server waits to receive commands from the client, executes them on the server's operating system using `subprocess`, and sends back the output of those commands to the client.</li> <br/>
+<li>Additionally, the server handles the special command `cd` to change the current working directory of the server's operating system.</li> <br/>
+</ul>
+
 
 ## Getting Started
 
