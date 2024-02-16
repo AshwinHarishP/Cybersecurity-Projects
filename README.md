@@ -76,7 +76,7 @@ Here are some of the projects currently included in this repository:
 <li>It also saves the cracked hashes to a file named `cracked-<filename>` if a file or directory containing hashes is specified.</li> <br/>
 </ul>
 
-### 7. [Project 6: Website_Safety_Checker](/Website_Safety_Checker)
+### 7. [Project 7: Website_Safety_Checker](/Website_Safety_Checker)
    #### Description: <br/>
    <ul>
 <li>This Chrome extension, "Website Safety Checker," is designed to enhance browsing security by warning users about potentially unsafe websites.</li> <br/>
