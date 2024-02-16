@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Website Safety Checker",
+  "version": "1.0",
+  "description": "Warns users about potentially unsafe websites.",
+  "permissions": ["tabs", "webNavigation"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
