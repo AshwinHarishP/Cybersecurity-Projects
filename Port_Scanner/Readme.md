@@ -36,7 +36,7 @@ This script is provided for educational and informational purposes only. Use it 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE file](https://github.com/aravindshivakumar/PortScanner/blob/84de026025973ed126bcc4573262679376877ac3/LICENSE) for details.
+This project is licensed under the MIT License. See the [LICENSE file](https://github.com/AshwinHarishP/Cybersecurity-Projects/blob/a9cd41148b794740c8b101699f6a4f0e0856a797/LICENSE) for details.
 
 
 
